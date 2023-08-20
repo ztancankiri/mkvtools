@@ -1,0 +1,43 @@
+#define GWINSZ_IN_SYS_IOCTL 1
+#define HAVE_BOOST
+#define HAVE_BOOST_FILESYSTEM
+#define HAVE_BOOST_OPERATORS_HPP 1
+#define HAVE_BOOST_SYSTEM
+#define HAVE_FLAC_DECODER_SKIP 1
+#define HAVE_FLAC_FORMAT_H 1
+#define HAVE_FMT_V8 1
+#define HAVE_GETTEXT 1
+#define HAVE_ICONV_H 1
+#define HAVE_INTTYPES_H 1
+#define HAVE_NLOHMANN_JSONCPP 0
+#define HAVE_NL_LANGINFO 1
+#define HAVE_OGG_OGG_H 1
+#define HAVE_QMEDIAPLAYER 1
+#define HAVE_QT 1
+#define HAVE_QTDBUS 1
+#define HAVE_STDINT_H 1
+#define HAVE_STDIO_H 1
+#define HAVE_STDLIB_H 1
+#define HAVE_STRINGS_H 1
+#define HAVE_STRING_H 1
+#define HAVE_STROPTS_H 1
+#define HAVE_SYSCALL 1
+#define HAVE_SYS_IOCTL_H 1
+#define HAVE_SYS_STAT_H 1
+#define HAVE_SYS_SYSCALL_H 1
+#define HAVE_SYS_TYPES_H 1
+#define HAVE_TIOCGWINSZ 1
+#define HAVE_UNISTD_H 1
+#define HAVE_VORBIS_CODEC_H 1
+#define ICONV_CONST 
+#define PACKAGE_BUGREPORT "https://gitlab.com/mbunkus/mkvtoolnix/issues/"
+#define PACKAGE_NAME "MKVToolNix"
+#define PACKAGE_STRING "MKVToolNix 78.0"
+#define PACKAGE_TARNAME "mkvtoolnix"
+#define PACKAGE_URL ""
+#define PACKAGE_VERSION "78.0"
+#define SIZEOF_INT 4
+#define SIZEOF_LONG 8
+#define SIZEOF_LONG_LONG 8
+#define STDC_HEADERS 1
+#define USE_PRECOMPILED_HEADERS 1
