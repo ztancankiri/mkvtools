@@ -12,6 +12,9 @@ add_definitions(
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -DQT_DBUS_LIB -DQT_CORE_LIB -Wnon-virtual-dtor -Wextra -Wno-missing-field-initializers -Wunused -Wpedantic -Wno-maybe-uninitialized -Wlogical-op -Wno-extra-semi -Wmisleading-indentation -Wduplicated-cond -Wshadow-compatible-local -Wduplicated-branches -Wno-deprecated-copy -Wno-stringop-overflow")
 set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -D_FILE_OFFSET_BITS=64 -DQT_NO_KEYWORDS")
+set(CMAKE_FIND_LIBRARY_SUFFIXES ".a")
+set(BUILD_SHARED_LIBS OFF)
+set(CMAKE_EXE_LINKER_FLAGS "-static")
 
 # Find required packages
 find_package(Qt5 COMPONENTS Core DBus REQUIRED)
